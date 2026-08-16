@@ -1,0 +1,21 @@
+{
+  "name": "driftback-backend",
+  "version": "1.0.0",
+  "author": "Zakaria Laouabdia Sellami",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "better-sqlite3": "^11.3.0",
+    "rss-parser": "^3.13.0",
+    "node-fetch": "^2.7.0",
+    "form-data": "^4.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
